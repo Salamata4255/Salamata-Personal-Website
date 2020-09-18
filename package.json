@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "2.1.0",
-  "homepage": "https://mldangelo.github.io/personal-site/",
+  "homepage": "https://SalamataBah.github.io/personal-site/",
   "scripts": {
     "build": "rimraf ./build && webpack --config ./webpack/webpack.production.config.babel.js --progress --profile --colors",
     "postbuild": "react-snap",
@@ -63,7 +63,6 @@
     "style-loader": "^1.2.1",
     "url": "^0.11.0",
     "url-loader": "^4.1.0",
-    "webpack": "^4.44.1",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0"
   },
@@ -84,6 +83,7 @@
     "mocha": "^8.1.3",
     "puppeteer": "^5.2.1",
     "react-snap": "^1.23.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }
 }
